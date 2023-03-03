@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Karla';
+}
+
+.app {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+
+.outer-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 360px;
+    height: 380px;
+    background: #0B2434;
+}
+
+.inside-box {
+    text-align: center;
+    background: #F5F5F5;
+    width: 320px;
+    height: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.inside-box > h3 {
+    color: #2B283A;
+    font-size: 25px;
+}
+
+.inside-box > h4 {
+    margin: 4px 0;
+}
+
+.inside-box > p {
+    color: #4A4E74;
+    font-family: 'Inter';
+    font-size: 13px;
+    padding: 0 10px;
+    margin: 0px 0 10px;
+}
+
+.inside-box .numbers {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 5px;
+    margin: 10px;
+}
+
+.inside-box .numbers span{
+    width: calc(100% / 6);
+    padding: 10px 5px;
+    margin: 4px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    cursor: pointer;
+}
+
+.inside-box .roll-btn{
+    width: fit-content;
+    padding: 8px 30px;
+    background: #5035FF;
+    font-size: 17px;
+    color: #FFF;
+    margin: 15px auto;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0px 3.2px 7.68px rgba(0, 0, 0, 0.18);
+    user-select: none;
+}
